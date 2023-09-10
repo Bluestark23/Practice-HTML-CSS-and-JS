@@ -1,0 +1,65 @@
+<!DOCTYPE html><!--Indica al navegador que utilizamos html5-->
+<html lang="es">  <!--con que lenguaje(español) voy a trabajar-->
+        <head><!--encabezado de la pagina aqui se agrega lo que necesito ,ejemplo scripts -->
+            <meta charset='utf-8'><!--informacion que le enviamos al navegador a la hora del render-->
+            <title>Pagina de Tadeo_Daniel</title>
+                <link rel="stylesheet" href="stylesheet2.css"><!--llama a la hoja de estilos -->
+                <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script  src="scriptPrincipal2.js"></script><!--se llama a a scriptPrincpal2 como un script-->
+        </head> 
+        <body><!--cuerpo de la pagina-->
+            <div id='contenido'><!--agrupaciones-->
+                 <header><!--encabezado de la pagina-->
+                        <hgroup>
+                            <h1>codigoFacilito.com</h1>
+                        </hgroup>
+                        <nav>
+                            <ul>
+                                <li><a href="index2.html">Inicio</a></li>
+                               <li><a href="tutoriales2.html">Tutoriales</a></li>
+                               <li><a href="contacto2.html">Contacto</a></li>
+                               <li><a href="media2.html">Media</a></li>
+                            </ul>
+                        </nav>
+                 </header>
+                <section><!--le indica alos bot de google que esta es una nueva seccion de la pagina-->
+                        <div id='textoPr'>
+                                <hgroup><h1>Media</h1></hgroup>
+
+                          <div id='mediaC'>
+                              <div class='particion' style='margin-right:50px'>
+                            <hgroup><h2 style='margin:0px'>Video</h2>
+                            </hgroup>
+
+                                     
+                                        <video width='320' height='240' controls='controls'>
+                                        <source src='A.mp4' type='video/mp4'>
+                                         <source src='C.webm' type='video/webm'>
+                                          <source src='B.ogg' type='video/ogg'>
+                              Tu navegador no es compatible con esta parte de la pagina <!--Si no es compatible manda este mensaje-->
+                                            </video>
+                                        </div>
+                                        <div class='particion'>
+                                            <hgroup><h2>Audio</h2>
+                                            </hgroup>
+                                            <audio controls='controls' src='d.mp3'></audio>
+                                            <audio controls='controls' src='e.mp3'></audio>
+                                            <audio controls='controls' src='f.mp3'></audio>
+                                         </div>
+                           </div>
+                        </div>
+                </section>
+            </div>
+                <!--configuracion basica del lienzo-->
+                <footer>
+                    <canvas id='miCanvas'>
+                            
+                    </canvas>
+
+                </footer>
+
+
+        </body>
+</html>

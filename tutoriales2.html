@@ -1,0 +1,53 @@
+<!DOCTYPE html><!--Indica al navegador que utilizamos html5-->
+<html lang="es">  <!--con que lenguaje(español) voy a trabajar-->
+        <head><!--encabezado de la pagina aqui se agrega lo que necesito ,ejemplo scripts -->
+            <meta charset='utf-8'><!--informacion que le enviamos al navegador a la hora del render-->
+            <title>Pagina de Tadeo_Daniel</title>
+  
+            <link rel="stylesheet" href="stylesheet2.css"><!--llama a la hoja de estilos -->
+                <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script  src="scriptPrincipal2.js"></script><!--se llama a a scriptPrincpal2 como un script-->
+        </head> 
+        <body><!--cuerpo de la pagina-->
+            <div id='contenido'><!--agrupaciones-->
+                 <header><!--encabezado de la pagina-->
+                        <hgroup>
+                            <h1>codigoFacilito.com</h1>
+                        </hgroup>
+                        <nav>
+                            <ul>
+                                <li><a href="index2.html">Inicio</a></li>
+                               <li><a href="tutoriales2.html">Tutoriales</a></li>
+                               <li><a href="contacto2.html">Contacto</a></li>
+                               <li><a href="media2.html">Media</a></li>
+                            </ul>
+                        </nav>
+                 </header>
+                <section><!--le indica alos bot de google que esta es una nueva seccion de la pagina-->
+                        <div id='textoPr'>
+                            <hgroup>
+                                    <h1>Estos son nuestros tutoriales:</h1>
+                            </hgroup>
+                            <!--si el navegador no reconoce las barras pon el valor que dentro de la etiqueta-->
+                            <p>PHP: <meter min='0' max='100' value='70'>70%</meter></p><!--meter para hacer medidiciones---nombre del curso-->
+                            <p>JAVA: <meter min='0' max='100' value='60'>60%</meter></p><!--meter para hacer medidiciones---nombre del curso-->
+                            <p>CSS: <meter min='0' max='100' value='30'>30%</meter></p><!--meter para hacer medidiciones---nombre del curso-->
+                            <p>jQuery: <meter min='0' max='100' value='25'>25%</meter></p><!--meter para hacer medidiciones---nombre del curso-->
+                            <p>C++: <meter min='0' max='100' value='90'>90%</meter></p><!--meter para hacer medidiciones---nombre del curso-->
+
+                        </div>
+                </section>
+            </div>
+                <!--configuracion basica del lienzo-->
+                <footer>
+                    <canvas id='miCanvas'>
+                            
+                    </canvas>
+
+                </footer>
+
+
+        </body>
+</html>
